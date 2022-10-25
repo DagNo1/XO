@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">XO</string>
+    <string name="title_activity_game">game_activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lets_play">Lets Play</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="play">Play!</string>
+    <string name="os_turn">O\'s Turn.</string>
+    <string name="xs_turn">X\'s Turn.</string>
+</resources>
