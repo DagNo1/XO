@@ -13,38 +13,40 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/x"
-            android:layout_marginTop="75sp"
-            android:layout_marginStart="110sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="@string/x"
-            android:textSize="150sp"
-            />
-        <TextView
-            android:id="@+id/o"
-            android:layout_marginTop="75sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="@string/o"
-            android:layout_toEndOf="@+id/x"
-            android:textSize="150sp"
-            />
+
+            <TextView
+                android:id="@+id/x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110sp"
+                android:layout_marginTop="75sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/x"
+                android:textColor="@color/blue_jeans"
+                android:textSize="150sp"/>
+            <TextView
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75sp"
+                android:layout_toEndOf="@+id/x"
+                android:fontFamily="sans-serif"
+                android:text="@string/o"
+                android:textColor="@color/orange_red"
+                android:textSize="150sp"
+                />
         </RelativeLayout>
         <Button
             android:id="@+id/play"
-            android:layout_marginTop="50sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/play"
-            android:padding="50sp"
-            android:textSize="50sp"
-            android:fontFamily="sans-serif"
             android:layout_gravity="center"
-            android:backgroundTint="@color/light_blue_900"
-            android:textColor="@color/white"/>
+            android:layout_marginTop="50sp"
+            android:backgroundTint="@color/green"
+            android:fontFamily="sans-serif"
+            android:padding="50sp"
+            android:text="@string/play"
+            android:textColor="@color/outer_space_crayola"
+            android:textSize="50sp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

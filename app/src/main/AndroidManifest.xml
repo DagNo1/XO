@@ -14,11 +14,11 @@
         android:theme="@style/Theme.XO"
         tools:targetApi="31">
         <activity
-            android:name=".game_activity"
+            android:name=".GameActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="@string/title_activity_game"
-            android:theme="@style/Theme.XO.Fullscreen" />
+            android:theme="@style/Theme.XO.Fullscreen"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
